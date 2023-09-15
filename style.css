@@ -1,7 +1,21 @@
 table,
-td {
+td,
+th {
 	border: 1px solid black;
 	border-collapse: collapse;
+}
+th:nth-child(1) {
+	width: 200px;
+}
+th:nth-child(4) {
+	width: 200px;
+}
+
+th:nth-child(2) {
+	width: 180px;
+}
+th:nth-child(3) {
+	width: 180px;
 }
 
 tr:nth-child(odd) {
@@ -13,4 +27,16 @@ tr:nth-child(even) {
 }
 tr:nth-child(1) {
 	background-color: white !important;
+}
+
+td:nth-child(2) {
+	text-align: center;
+}
+
+td:nth-child(3) {
+	text-align: center;
+}
+
+td:nth-child(4) {
+	text-align: right;
 }
