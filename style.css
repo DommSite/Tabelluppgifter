@@ -4,6 +4,11 @@ th {
 	border: 1px solid black;
 	border-collapse: collapse;
 }
+caption {
+	caption-side: bottom;
+	padding: 5px;
+	font-size: 2em;
+}
 th:nth-child(1) {
 	width: 200px;
 }
@@ -29,6 +34,12 @@ tr:nth-child(1) {
 	background-color: white !important;
 }
 
+th:nth-child(1) {
+	text-align: left;
+}
+th:nth-child(4) {
+	text-align: right;
+}
 td:nth-child(2) {
 	text-align: center;
 }
